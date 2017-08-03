@@ -1,0 +1,85 @@
+
+nav{
+  height: 80px;
+  padding: 20px;
+  background-color: white;
+}
+nav img{
+  width: 150px;
+}
+nav ul li a {
+  color: black;
+}
+
+#fondo{
+  background-image: url(../dist/img/fondo.jpg);
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.3);
+  filter:brightness(0.7);
+}
+#elementos--linea li{
+  display: inline-block;
+  margin-top: 30px;
+}
+#elementos--linea p{
+  color: red;
+}
+#elementos--linea i{
+  font-size: 20px;
+  color: red;
+}
+.margen--area{
+  margin-top: 100px;
+}
+.margen{
+  margin-right: 30px;
+}
+.margen--abajo{
+  margin-top: 50px;
+}
+.estilo-boton{
+  border-radius: 40px;
+  border-color:#00FFFF;
+  border: solid 5px;
+  width:200px;
+  height:200px;
+  padding: 10px;
+  font-size: 15px;
+  margin-right: 40px;
+}
+.boton--azul{
+  background-color: #00FFFF;
+  color: 	#FFFFF0;
+}
+.boton--transparente{
+  color: #00FFFF;
+}
+.tamaño--grande{
+  width: 100px;
+  height: 150px;
+}
+.texto--azul{
+  color: #00FFFF;
+}
+.imagen{
+  width: 600px;
+  height: 500px;
+}
+.imagen--mediana{
+  width: 400px;
+  height: 300px;
+  margin-top: 100px;
+}
+.iconos--borde i{
+  margin-left: 10px;
+  padding: 15px 10px 15px 10px;
+  border: 5px solid #00FFFF;
+}
+.iconos--borde p{
+  display: inline-block;
+}
+.iconos--borde span{
+  display:inline-block;
+}
